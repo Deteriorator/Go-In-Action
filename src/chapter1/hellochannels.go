@@ -4,7 +4,7 @@
  * @create: 2020-09-14 11:23
  */
 
-package main
+package chapter1
 
 import (
 	"fmt"
