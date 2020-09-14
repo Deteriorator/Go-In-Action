@@ -6,11 +6,10 @@
 package main
 
 import (
-	"chapter2/sample/search"
+	"./chapter2/sample/search"
+	_ "github.com/goinaction/code/chapter2/sample/matchers"
 	"log"
 	"os"
-	//_ "github.com/goinaction/code/chapter2/sample/matchers"
-	//"./chapter2/sample/search"
 )
 
 // init is called prior to main.
