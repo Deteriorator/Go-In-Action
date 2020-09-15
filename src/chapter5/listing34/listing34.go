@@ -26,7 +26,7 @@ func main() {
 		return
 	}
 
-	io.Copy(os.Stdout, r.Body)
+	_, _ = io.Copy(os.Stdout, r.Body)
 	if err := r.Body.Close(); err != nil {
 		fmt.Println(err)
 	}
