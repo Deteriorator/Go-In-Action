@@ -6,8 +6,8 @@
 package main
 
 import (
-	"./chapter2/sample/search"
-	_ "github.com/goinaction/code/chapter2/sample/matchers"
+	_ "chapter2/sample/matchers"
+	"chapter2/sample/search"
 	"log"
 	"os"
 )

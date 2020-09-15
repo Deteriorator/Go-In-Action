@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"Go-In-Action/src/chapter2/sample/search"
+	"chapter2/sample/search"
 )
 
 type (
